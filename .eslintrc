@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "prettier",
+    "prettier/standard",
+    "plugin:promise/recommended"
+  ],
+  "plugins": [
+    "prettier",
+    "standard",
+    "promise"
+  ],
+  "overrides": [
+    {
+      "files": [ "**/*.spec.js" ],
+      "rules": {
+        "import/first": "off"
+      }
+    }
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "standard/no-callback-literal": "off",
+    "no-unexpected-multiline": "off",
+    "no-return-await": "off",
+    "node/no-deprecated-api": "off"
+  },
+  "globals": {
+    "fetch": false
+  }
+}
