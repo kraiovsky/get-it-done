@@ -7,6 +7,12 @@
   "author": "Roman Krayovskyy <rkrayovskyy@gmail.com>",
   "license": "MIT",
   "private": false,
+  "bin": {
+    "get-it-done": "index.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
   "dependencies": {
     "got": "^9.6.0",
     "readline-sync": "^1.4.10"
