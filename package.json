@@ -16,7 +16,7 @@
   "dependencies": {
     "got": "^9.6.0",
     "prettyjson": "^1.2.1",
-    "readline-sync": "^1.4.10"
+    "prompts": "^2.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",

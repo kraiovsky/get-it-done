@@ -1,5 +1,8 @@
 const buildProps = require('./lib/cli')
 const callApi = require('./lib/api')
 
-const { troopers, tasks, troopersPerTask } = buildProps()
-callApi(tasks, troopers, troopersPerTask)
+const run = async () => {
+  const { troopers, tasks, troopersPerTask } = await buildProps()
+  await callApi(tasks, troopers, troopersPerTask)
+}
+run()
