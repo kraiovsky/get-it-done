@@ -14,6 +14,7 @@
     "start": "node index"
   },
   "dependencies": {
+    "conf": "^5.0.0",
     "got": "^9.6.0",
     "prettyjson": "^1.2.1",
     "prompts": "^2.2.1"
