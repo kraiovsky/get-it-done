@@ -16,6 +16,7 @@
   "dependencies": {
     "conf": "^5.0.0",
     "got": "^9.6.0",
+    "kleur": "^3.0.3",
     "ora": "^3.4.0",
     "prettyjson": "^1.2.1",
     "prompts": "^2.2.1"
