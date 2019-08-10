@@ -1,0 +1,255 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: /bin/bash
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/roman/Engineering/Personal/get-it-done-cli
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 70
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: null
+    title: null
+    style:
+      backgroundColor: black
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1500
+    content: "\e[?1034hget-it-done-cli: demo$ "
+  - delay: 1000
+    content: g
+  - delay: 50
+    content: e
+  - delay: 50
+    content: t
+  - delay: 50
+    content: '-'
+  - delay: 50
+    content: i
+  - delay: 50
+    content: t
+  - delay: 50
+    content: '-'
+  - delay: 50
+    content: d
+  - delay: 50
+    content: o
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: e
+  - delay: 50
+    content: "\r\n"
+  - delay: 500
+    content: "\e[?25l\e[36m?\e[39m \e[1mI have found the following list of people:\r\n\e[1m\e[32mHan Solo, Superman, Odin\e[22m\e[1m\e[39m\e[22m \e[90m›\e[39m \e[90m- Use arrow-keys. Return to submit.\e[39m\r\n\e[36m❯\e[39m  \e[36m\e[4mUse this full list\e[39m\e[24m\e[90m\e[39m\r\n   Select from the list\e[90m\e[39m\r\n   Reset the list\e[90m\e[39m"
+  - delay: 2000
+    content: "\e[2K\e[F\e[2K\e[F\e[2K\e[F\e[2K\e[F\e[2K\e[1G\e[32m✔\e[39m \e[1mI have found the following list of people:\r\n\e[1m\e[32mHan Solo, Superman, Odin\e[22m\e[1m\e[39m\e[22m \e[90m›\e[39m Use this full list\r\n\e[?25h"
+  - delay: 500
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m B\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Bu\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy p\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy pi\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy piz\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy pizz\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Buy pizza\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[32m✔\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m…\e[39m Buy pizza\e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m D\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do s\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do so\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do som\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do some\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do somet\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do someth\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do somethi\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do somethin\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something c\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something co\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something coo\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Do something cool\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[32m✔\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m…\e[39m Do something cool\e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m G\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Ge\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get w\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get wo\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get wor\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work d\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work do\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work don\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done.\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. \e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. M\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Ma\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. May\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Mayb\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Maybe\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Maybe.\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Maybe..\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m Get work done. Maybe...\e7\e8"
+  - delay: 50
+    content: "\e[2K\e[1G\e[2K\e[1G\e[32m✔\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m…\e[39m Get work done. Maybe...\e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m›\e[39m \e7\e8"
+  - delay: 500
+    content: "\e[2K\e[1G\e[2K\e[1G\e[32m✔\e[39m \e[1mAdd a task \e[90mor <enter> to continue\e[39m\e[22m \e[90m…\e[39m \e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mHow many people needed per task?\e[22m \e[90m›\e[39m \e[36m\e[4m\e[90m2\e[39m\e[36m\e[39m\e[24m\e7\e8"
+  - delay: 1500
+    content: "\e[2K\e[1G\e[2K\e[1G\e[32m✔\e[39m \e[1mHow many people needed per task?\e[22m \e[90m…\e[39m 2\e7\e8\r\n\e[?25h"
+  - delay: 500
+    content: "\r\nHere you are:\r\n \e[32mBuy pizza: \e[39m\r\n  \e[32m- \e[39mOdin\r\n  \e[32m- \e[39mHan Solo\r\n\e[32mDo something cool: \e[39m\r\n  \e[32m- \e[39mSuperman\r\n  \e[32m- \e[39mOdin\r\n\e[32mGet work done. Maybe...: \e[39m\r\n  \e[32m- \e[39mHan Solo\r\n  \e[32m- \e[39mSuperman\r\n"
+  - delay: 1000
+    content: 'get-it-done-cli: demo$ '
