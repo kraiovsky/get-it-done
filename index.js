@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const buildProps = require('./lib/cli')
 const { assignTroopersToTasks } = require('./lib/task-manager')
 
