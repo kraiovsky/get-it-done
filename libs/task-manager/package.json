@@ -1,0 +1,18 @@
+{
+  "name": "@get-it-done/task-assigner",
+  "version": "1.0.0",
+  "description": "Assign tasks to people.",
+  "main": "index.js",
+  "repository": "https://github.com/rkrayovskyy/get-it-done",
+  "author": "Roman Krayovskyy <rkrayovskyy@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "workspaces": {
+    "nohoist": ["**"]
+  },
+  "scripts": {},
+  "dependencies": {
+    "just-shuffle": "^2.1.0"
+  },
+  "devDependencies": {}
+}

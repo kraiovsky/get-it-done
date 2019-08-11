@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "name": "get-it-done",
+    "routes": [
+        { 
+            "src": "/",
+            "methods": ["GET"],
+            "dest": "/controllers/index.js"
+        },
+        {
+            "src": "/api",
+            "methods": ["POST"],
+            "dest": "/controllers/api.js"
+        }
+    ],
+    "builds": [
+        { "src": "/controllers/*.js", "use": "@now/node" }
+    ]
+}

@@ -1,18 +1,25 @@
 {
-  "name": "get-it-done",
+  "name": "@get-it-done/cli",
   "version": "1.0.0",
-  "description": "A set of tools to gelp you get things done.",
+  "description": "CLI for get-it-done task manager",
   "main": "index.js",
-  "repository": "https://github.com/rkrayovskyy/get-it-done.git",
+  "repository": "https://github.com/rkrayovskyy/get-it-done",
   "author": "Roman Krayovskyy <rkrayovskyy@gmail.com>",
   "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "packages/*",
-    "libs/*"
-  ],
-  "scripts": {},
-  "dependencies": {},
+  "private": false,
+  "bin": {
+    "get-it-done": "index.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "@get-it-done/task-assigner": "^1.0.0",
+    "conf": "^5.0.0",
+    "kleur": "^3.0.3",
+    "prettyjson": "^1.2.1",
+    "prompts": "^2.2.1"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",

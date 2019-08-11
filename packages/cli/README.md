@@ -24,4 +24,4 @@ People per task will be pre-populated from your config, which can be reset as we
 ![next run demo](static/demo-next-run.gif)
 
 ## More ways to get things done
-This project has it's API version, check it out: https://github.com/rkrayovskyy/get-it-done
+This project has it's serverless API version, check it out: https://github.com/rkrayovskyy/get-it-done/packages/api
