@@ -2,11 +2,11 @@
 
 ## Install
 ```
-npm -g install get-it-done-cli
+npm -g install @get-it-done/cli
 ```
 or
 ```
-yarn global add get-it-done-cli
+yarn global add @get-it-done/cli
 ```
 
 ## Use
