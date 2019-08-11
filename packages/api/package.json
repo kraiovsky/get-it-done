@@ -1,6 +1,6 @@
 {
   "name": "@get-it-done/api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://get-it-done.rkrayovskyy.now.sh/",
   "author": "Roman Krayovskyy (rkrayovskyy@gmail.com)",
   "repository": "https://github.com/rkrayovskyy/get-it-done",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@get-it-done/task-assigner": "^1.0.0"
+    "@get-it-done/task-assigner": "^1.0.1"
   },
   "scripts": {
     "dev": "now dev",

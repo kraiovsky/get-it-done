@@ -1,6 +1,6 @@
 {
   "name": "@get-it-done/task-assigner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assign tasks to people.",
   "main": "index.js",
   "repository": "https://github.com/rkrayovskyy/get-it-done",
