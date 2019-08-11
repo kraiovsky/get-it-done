@@ -1,6 +1,6 @@
 {
   "name": "@get-it-done/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for get-it-done task manager",
   "main": "index.js",
   "repository": "https://github.com/rkrayovskyy/get-it-done",
