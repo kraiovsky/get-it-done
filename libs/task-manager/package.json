@@ -16,7 +16,5 @@
   "dependencies": {
     "just-shuffle": "^2.1.0"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "devDependencies": {}
 }
