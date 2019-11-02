@@ -1,6 +1,6 @@
 {
   "name": "@get-it-done/cli",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "CLI for get-it-done task manager",
   "main": "index.js",
   "repository": "https://github.com/rkrayovskyy/get-it-done",
@@ -11,7 +11,8 @@
     "get-it-done": "index.js"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "postpublish": "npm publish --ignore-scripts --registry='https://registry.npmjs.org'"
   },
   "dependencies": {
     "@get-it-done/task-assigner": "^1.0.1",
