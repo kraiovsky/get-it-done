@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@get-it-done/task-assigner": "^1.0.1",
-    "conf": "^6.0.0",
+    "conf": "^6.2.1",
     "kleur": "^3.0.3",
     "prettyjson": "^1.2.1",
     "prompts": "^2.2.1"
