@@ -6,7 +6,7 @@
   "repository": "https://github.com/rkrayovskyy/get-it-done",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@get-it-done/task-assigner": "^1.0.1"
   },
