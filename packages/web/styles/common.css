@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--brand-text-color-primary);
+  background: var(--brand-background-color);
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+li {
+  padding-top: 3px;
+}
+
+a {
+  color: var(--brand-text-color-primary);
+}
+
+[text-color="primary"] {
+  color: var(--brand-text-color-primary)
+}
+[text-color="highlight"] {
+  color: var(--brand-text-color-highlight)
+}
+[text-color="lowlight"] {
+  color: var(--brand-text-color-lowlight)
+}
+
+[font-style="italic"] {
+  font-style: italic;
+}

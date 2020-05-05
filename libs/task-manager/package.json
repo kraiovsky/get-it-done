@@ -14,7 +14,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "just-shuffle": "^2.1.0"
+    "just-shuffle": "^3.0.1"
   },
   "devDependencies": {}
 }

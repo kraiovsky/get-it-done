@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "standard-jsx",
+    "plugin:jest/all",
+    "plugin:jsx-a11y/recommended",
+    "plugin:jsdoc/recommended",
+    "better-styled-components",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:promise/recommended",
+    "prettier/react",
+    "prettier/standard",
+    "prettier"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "React": "writable"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "prettier",
+    "standard",
+    "jsx-a11y",
+    "promise",
+    "jest",
+    "jsdoc"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/first": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsdoc/require-jsdoc": "off"
+  }
+}
