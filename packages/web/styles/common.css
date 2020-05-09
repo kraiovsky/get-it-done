@@ -15,7 +15,7 @@ body {
   background: var(--brand-background-color);
   padding: 0px;
   margin: 0px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
@@ -34,6 +34,9 @@ a {
 
 [text-color="primary"] {
   color: var(--brand-text-color-primary)
+}
+[text-color="secondary"] {
+  color: var(--brand-text-color-secondary)
 }
 [text-color="highlight"] {
   color: var(--brand-text-color-highlight)

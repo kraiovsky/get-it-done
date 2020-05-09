@@ -18,6 +18,10 @@
 .middle {
   align-self: center;
 }
+.v-center {
+  display: flex;
+  align-items: center;
+}
 
 /* Mobile screens customizations */
 @media only screen and (max-width: 960px) {
@@ -32,6 +36,9 @@
   }
   .padded {
     padding: 5px 10px;
+  }
+  .padded-left {
+    padding-left: 5px;
   }
 }
 
@@ -48,6 +55,9 @@
   }
   .padded {
     padding: 10px 15px;
+  }
+  .padded-left {
+    padding-left: 10px;
   }
 }
 /* ---------------- */
