@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCookieBite } from '@fortawesome/free-solid-svg-icons'
 import assignTasks from '@get-it-done/task-assigner'
 import classNames from 'classnames'
+import Link from 'next/link'
 import { Grid, Cell } from '../components/Layout'
 import Toggle from '../components/Toggle'
 import NumberInput from '../components/NumberInput'
@@ -264,8 +265,13 @@ const Home = () => {
       </Cell>
       <Cell span="5-8" span-s="row">
         <FontAwesomeIcon icon={faCookieBite} text-color="lowlight" size="lg" />
-        &nbsp;&nbsp; We uses cookies to remember your theme preference and list
-        of people
+        &nbsp;&nbsp; This site uses cookies to remember your theme preference
+        and list of people
+      </Cell>
+      <Cell span="5-8" span-s="row">
+        <Link href="/about">
+          <a alt="about">Learn more about this website</a>
+        </Link>
       </Cell>
       <Cell span="5-8" span-s="row">
         &copy; Roman Kraiovsky{' '}
