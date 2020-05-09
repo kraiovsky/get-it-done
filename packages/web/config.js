@@ -1,5 +1,5 @@
 const defaultConfig = {
-  WEBSITE_TITLE: 'Roman Kraiovsky',
+  WEBSITE_TITLE: 'Get it done',
 }
 const config = {
   development: {

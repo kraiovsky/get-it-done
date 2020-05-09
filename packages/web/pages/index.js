@@ -10,7 +10,7 @@ import Toggle from '../components/Toggle'
 import NumberInput from '../components/NumberInput'
 import { setPageTitle, toggleTheme } from '../store/actionCreators'
 
-const pageTitle = 'Profile'
+const pageTitle = 'Assign tasks'
 
 const Home = () => {
   const state = useSelector((state) => state)
