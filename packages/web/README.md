@@ -9,6 +9,6 @@ Visit [my web site](https://kraiovsky.now.sh/) for more info and projects.
 
 ## Attributions
 
-Logo/favicon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Logo/favicon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
 
 Gif: [Giphy](https://giphy.com/gifs/bored-impatient-A6YO96sBmr1te)
