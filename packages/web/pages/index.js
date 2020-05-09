@@ -220,7 +220,10 @@ const Home = () => {
         )) || (
           <span className="center">
             <p>{(error && error) || 'waiting for input...'}</p>
-            <img src="https://media.giphy.com/media/IcoMfdWwY26mBcX008/giphy.gif" />
+            <img
+              alt="waiting-gif"
+              src="https://media.giphy.com/media/IcoMfdWwY26mBcX008/giphy.gif"
+            />
           </span>
         )}
       </Cell>
