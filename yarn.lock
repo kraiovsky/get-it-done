@@ -5279,11 +5279,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-just-shuffle@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-2.1.0.tgz#321d67dcf2217298245aeab4928f3b61e3bd2fbc"
-  integrity sha512-bVodo9CQWgGjwN/GALGGObJf2m3rbwD46Ijt/3aQwrUV3n0a4sJaGzk7hdRDbmcYV/46ezVElDt5WiuOzPb8Iw==
-
 just-shuffle@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-3.0.1.tgz#e10491650ca697a3aa923ba8f7742e26f0214d8f"
@@ -7818,9 +7813,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
