@@ -5279,11 +5279,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-just-shuffle@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-2.1.0.tgz#321d67dcf2217298245aeab4928f3b61e3bd2fbc"
-  integrity sha512-bVodo9CQWgGjwN/GALGGObJf2m3rbwD46Ijt/3aQwrUV3n0a4sJaGzk7hdRDbmcYV/46ezVElDt5WiuOzPb8Iw==
-
 just-shuffle@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-3.0.1.tgz#e10491650ca697a3aa923ba8f7742e26f0214d8f"
@@ -5440,9 +5435,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lolex@^5.0.0:
   version "5.1.2"
