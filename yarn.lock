@@ -5279,11 +5279,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-just-shuffle@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-2.1.0.tgz#321d67dcf2217298245aeab4928f3b61e3bd2fbc"
-  integrity sha512-bVodo9CQWgGjwN/GALGGObJf2m3rbwD46Ijt/3aQwrUV3n0a4sJaGzk7hdRDbmcYV/46ezVElDt5WiuOzPb8Iw==
-
 just-shuffle@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-3.0.1.tgz#e10491650ca697a3aa923ba8f7742e26f0214d8f"
@@ -8876,9 +8871,9 @@ write@1.0.3:
     mkdirp "^0.5.1"
 
 ws@^7.0.0:
-  version "7.2.5"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.5.tgz#abb1370d4626a5a9cd79d8de404aa18b3465d10d"
-  integrity sha512-C34cIU4+DB2vMyAbmEKossWq2ZQDr6QEyuuCzWrM9zfw1sGc0mYiJ0UnG9zzNykt49C2Fi34hvr2vssFQRS6EA==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 x-is-string@^0.1.0:
   version "0.1.0"
