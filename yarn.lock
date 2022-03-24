@@ -5279,11 +5279,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-just-shuffle@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-2.1.0.tgz#321d67dcf2217298245aeab4928f3b61e3bd2fbc"
-  integrity sha512-bVodo9CQWgGjwN/GALGGObJf2m3rbwD46Ijt/3aQwrUV3n0a4sJaGzk7hdRDbmcYV/46ezVElDt5WiuOzPb8Iw==
-
 just-shuffle@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-3.0.1.tgz#e10491650ca697a3aa923ba8f7742e26f0214d8f"
@@ -5636,9 +5631,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mississippi@^3.0.0:
   version "3.0.0"
